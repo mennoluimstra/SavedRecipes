@@ -190,6 +190,7 @@
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Ingredient.cs" />
     <Compile Include="Models\Recipe.cs" />
+    <Compile Include="Models\SavedRecipesContext.cs" />
     <Compile Include="Models\Step.cs" />
     <Compile Include="Models\Tag.cs" />
     <Compile Include="Models\Unit.cs" />

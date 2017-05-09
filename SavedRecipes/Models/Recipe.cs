@@ -13,7 +13,7 @@ namespace SavedRecipes.Models
         public int Rating { get; set; }
         public int NumberOfPersons { get; set; }
         public ICollection<Ingredient> Ingredients { get; set; }
-        public ICollection<Step> Preparation { get; set; }
+        public ICollection<Step> Steps { get; set; }
         public ICollection<Tag> Tags { get; set; }
         public string Source { get; set; }
         public string ImagePath { get; set; }
