@@ -9,5 +9,6 @@ namespace SavedRecipes.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
+        public ICollection<Recipe> Recipes { get; set; }
     }
 }

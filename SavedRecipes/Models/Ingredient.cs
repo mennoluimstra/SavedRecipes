@@ -11,5 +11,6 @@ namespace SavedRecipes.Models
         public int Quantity { get; set; }
         public Unit Unit { get; set; }
         public string Description { get; set; }
+        public ICollection<Recipe> Recipes { get; set; }
     }
 }
